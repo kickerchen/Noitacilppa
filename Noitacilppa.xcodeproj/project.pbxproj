@@ -8,11 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		796DE37C1B71C27D00294FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE37B1B71C27D00294FAB /* AppDelegate.swift */; };
-		796DE37E1B71C27D00294FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE37D1B71C27D00294FAB /* ViewController.swift */; };
 		796DE3811B71C27D00294FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796DE37F1B71C27D00294FAB /* Main.storyboard */; };
 		796DE3831B71C27D00294FAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796DE3821B71C27D00294FAB /* Images.xcassets */; };
 		796DE3861B71C27D00294FAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796DE3841B71C27D00294FAB /* LaunchScreen.xib */; };
 		796DE3921B71C27D00294FAB /* NoitacilppaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3911B71C27D00294FAB /* NoitacilppaTests.swift */; };
+		796DE3A91B71C29800294FAB /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE39E1B71C29800294FAB /* RAMBounceAnimation.swift */; };
+		796DE3AA1B71C29800294FAB /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3A01B71C29800294FAB /* RAMFrameItemAnimation.swift */; };
+		796DE3AB1B71C29800294FAB /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3A21B71C29800294FAB /* RAMFumeAnimation.swift */; };
+		796DE3AC1B71C29800294FAB /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3A41B71C29800294FAB /* RAMRotationAnimation.swift */; };
+		796DE3AD1B71C29800294FAB /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3A61B71C29800294FAB /* RAMTransitionItemAnimation.swift */; };
+		796DE3AE1B71C29800294FAB /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3A71B71C29800294FAB /* RAMAnimatedTabBarController.swift */; };
+		796DE3AF1B71C29800294FAB /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3A81B71C29800294FAB /* RAMItemAnimationProtocol.swift */; };
+		796DE3B11B71EE5300294FAB /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3B01B71EE5300294FAB /* MeViewController.swift */; };
+		796DE3B31B72005800294FAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3B21B72005800294FAB /* LoginViewController.swift */; };
+		796DE3B51B72006700294FAB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3B41B72006700294FAB /* RegisterViewController.swift */; };
+		796DE3B81B72020300294FAB /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3B71B72020300294FAB /* UIViewControllerExtension.swift */; };
+		796DE3BA1B72165600294FAB /* WhosThere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3B91B72165600294FAB /* WhosThere.swift */; };
+		796DE3BD1B72779600294FAB /* GarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DE3BC1B72779600294FAB /* GarageViewController.swift */; };
+		B08CB62C7C318A457A413845 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC40AFDCEACE51BA2D6E4FDA /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +42,28 @@
 		796DE3761B71C27D00294FAB /* Noitacilppa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noitacilppa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		796DE37A1B71C27D00294FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796DE37B1B71C27D00294FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		796DE37D1B71C27D00294FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		796DE3801B71C27D00294FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		796DE3821B71C27D00294FAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		796DE3851B71C27D00294FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		796DE38B1B71C27D00294FAB /* NoitacilppaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoitacilppaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		796DE3901B71C27D00294FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796DE3911B71C27D00294FAB /* NoitacilppaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoitacilppaTests.swift; sourceTree = "<group>"; };
+		796DE39E1B71C29800294FAB /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		796DE3A01B71C29800294FAB /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		796DE3A21B71C29800294FAB /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		796DE3A41B71C29800294FAB /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		796DE3A61B71C29800294FAB /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
+		796DE3A71B71C29800294FAB /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		796DE3A81B71C29800294FAB /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		796DE3B01B71EE5300294FAB /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		796DE3B21B72005800294FAB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		796DE3B41B72006700294FAB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		796DE3B71B72020300294FAB /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		796DE3B91B72165600294FAB /* WhosThere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosThere.swift; sourceTree = "<group>"; };
+		796DE3BC1B72779600294FAB /* GarageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageViewController.swift; sourceTree = "<group>"; };
+		A2173AB1DBE97251EEC29978 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CF229904A96C075EF17A27FA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EC40AFDCEACE51BA2D6E4FDA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08CB62C7C318A457A413845 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AB3FCC20E6B49DE44057E04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF229904A96C075EF17A27FA /* Pods.debug.xcconfig */,
+				A2173AB1DBE97251EEC29978 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		796DE36D1B71C27D00294FAB = {
 			isa = PBXGroup;
 			children = (
 				796DE3781B71C27D00294FAB /* Noitacilppa */,
 				796DE38E1B71C27D00294FAB /* NoitacilppaTests */,
 				796DE3771B71C27D00294FAB /* Products */,
+				3AB3FCC20E6B49DE44057E04 /* Pods */,
+				E4F834CC046D269EEB77B846 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +117,14 @@
 		796DE3781B71C27D00294FAB /* Noitacilppa */ = {
 			isa = PBXGroup;
 			children = (
+				796DE3BB1B721B3300294FAB /* Model */,
+				796DE3B61B72008C00294FAB /* ViewControllers */,
 				796DE37B1B71C27D00294FAB /* AppDelegate.swift */,
-				796DE37D1B71C27D00294FAB /* ViewController.swift */,
 				796DE37F1B71C27D00294FAB /* Main.storyboard */,
 				796DE3821B71C27D00294FAB /* Images.xcassets */,
 				796DE3841B71C27D00294FAB /* LaunchScreen.xib */,
 				796DE3791B71C27D00294FAB /* Supporting Files */,
+				796DE39B1B71C29800294FAB /* RAMAnimatedTabBarController */,
 			);
 			path = Noitacilppa;
 			sourceTree = "<group>";
@@ -112,6 +154,104 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		796DE39B1B71C29800294FAB /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				796DE39C1B71C29800294FAB /* Animations */,
+				796DE3A71B71C29800294FAB /* RAMAnimatedTabBarController.swift */,
+				796DE3A81B71C29800294FAB /* RAMItemAnimationProtocol.swift */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		796DE39C1B71C29800294FAB /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				796DE39D1B71C29800294FAB /* BounceAnimation */,
+				796DE39F1B71C29800294FAB /* FrameAnimation */,
+				796DE3A11B71C29800294FAB /* FumeAnimation */,
+				796DE3A31B71C29800294FAB /* RotationAnimation */,
+				796DE3A51B71C29800294FAB /* TransitionAniamtions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		796DE39D1B71C29800294FAB /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				796DE39E1B71C29800294FAB /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		796DE39F1B71C29800294FAB /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				796DE3A01B71C29800294FAB /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		796DE3A11B71C29800294FAB /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				796DE3A21B71C29800294FAB /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		796DE3A31B71C29800294FAB /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				796DE3A41B71C29800294FAB /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		796DE3A51B71C29800294FAB /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				796DE3A61B71C29800294FAB /* RAMTransitionItemAnimation.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		796DE3B61B72008C00294FAB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				796DE3B71B72020300294FAB /* UIViewControllerExtension.swift */,
+				796DE3BE1B73002900294FAB /* Login/Register */,
+				796DE3B01B71EE5300294FAB /* MeViewController.swift */,
+				796DE3BC1B72779600294FAB /* GarageViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		796DE3BB1B721B3300294FAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				796DE3B91B72165600294FAB /* WhosThere.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		796DE3BE1B73002900294FAB /* Login/Register */ = {
+			isa = PBXGroup;
+			children = (
+				796DE3B21B72005800294FAB /* LoginViewController.swift */,
+				796DE3B41B72006700294FAB /* RegisterViewController.swift */,
+			);
+			name = Login/Register;
+			sourceTree = "<group>";
+		};
+		E4F834CC046D269EEB77B846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC40AFDCEACE51BA2D6E4FDA /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 796DE3951B71C27D00294FAB /* Build configuration list for PBXNativeTarget "Noitacilppa" */;
 			buildPhases = (
+				3F649041DA7C1AAB6404709E /* Check Pods Manifest.lock */,
 				796DE3721B71C27D00294FAB /* Sources */,
 				796DE3731B71C27D00294FAB /* Frameworks */,
 				796DE3741B71C27D00294FAB /* Resources */,
+				36D4CF6D5C899C1E7B04C004 /* Copy Pods Resources */,
+				4D5F3F3D78F29284A3EBF78B /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,13 +350,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36D4CF6D5C899C1E7B04C004 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F649041DA7C1AAB6404709E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D5F3F3D78F29284A3EBF78B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		796DE3721B71C27D00294FAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796DE37E1B71C27D00294FAB /* ViewController.swift in Sources */,
+				796DE3B11B71EE5300294FAB /* MeViewController.swift in Sources */,
+				796DE3AB1B71C29800294FAB /* RAMFumeAnimation.swift in Sources */,
+				796DE3AA1B71C29800294FAB /* RAMFrameItemAnimation.swift in Sources */,
+				796DE3BD1B72779600294FAB /* GarageViewController.swift in Sources */,
+				796DE3BA1B72165600294FAB /* WhosThere.swift in Sources */,
+				796DE3B51B72006700294FAB /* RegisterViewController.swift in Sources */,
+				796DE3AF1B71C29800294FAB /* RAMItemAnimationProtocol.swift in Sources */,
+				796DE3A91B71C29800294FAB /* RAMBounceAnimation.swift in Sources */,
+				796DE3AD1B71C29800294FAB /* RAMTransitionItemAnimation.swift in Sources */,
+				796DE3AE1B71C29800294FAB /* RAMAnimatedTabBarController.swift in Sources */,
+				796DE3B81B72020300294FAB /* UIViewControllerExtension.swift in Sources */,
 				796DE37C1B71C27D00294FAB /* AppDelegate.swift in Sources */,
+				796DE3AC1B71C29800294FAB /* RAMRotationAnimation.swift in Sources */,
+				796DE3B31B72005800294FAB /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +543,7 @@
 		};
 		796DE3961B71C27D00294FAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF229904A96C075EF17A27FA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Noitacilppa/Info.plist;
@@ -350,6 +554,7 @@
 		};
 		796DE3971B71C27D00294FAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2173AB1DBE97251EEC29978 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Noitacilppa/Info.plist;
@@ -411,6 +616,7 @@
 				796DE3971B71C27D00294FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		796DE3981B71C27D00294FAB /* Build configuration list for PBXNativeTarget "NoitacilppaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +625,7 @@
 				796DE39A1B71C27D00294FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
